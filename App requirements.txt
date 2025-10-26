@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlmodel
+pymysql
+bcrypt
+passlib
+starlette
+pydantic
+
+    
