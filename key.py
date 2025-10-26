@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 from fastapi import HTTPException, Depends
 from fastapi.security import OAuth2PasswordBearer
 
-Key = "..."
+Key = "<Your Key>"
 Algorithm = "HS256"
 token_expire_time = 60 * 24 * 30
 
@@ -22,3 +22,4 @@ def verify_token(token: str = Depends(oAuth)):
         return payload
     except JWTError:
         raise HTTPException(status_code=401, detail="Invalid or expired token")
+
