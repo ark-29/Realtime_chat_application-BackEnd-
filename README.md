@@ -71,6 +71,8 @@ http://127.0.0.1:8000/docs
 Each message is linked to a sender (User) and a group (Group).
 Users can belong to multiple groups, and all messages are persisted in MySQL.
 
+### Note
+ * created tokens but never used in this application development, please ignore Jose from all codes
 
 ### 🤝 Author
 
